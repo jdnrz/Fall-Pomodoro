@@ -1,23 +1,104 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins ', 'sans-serif';
+    font-family: "Tilt Neon";
     box-sizing: border-box;
     }
     
-    body{
-        background: #222;
-    }
+body{
+    background: #FF853F;
+}
+
+.card{
+    width: 90%;
+    max-width: 650px;
+    height: 525px;
+    background-color: #222;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 70px;
+    font-family: "Tilt Neon";
+    font-weight: 500;
+    color:#222;
+
+}
+
+.study-interval-card {
+    display: inline-block;
+    width: 150px; 
+    height: 30px; 
+    padding: 20px;
+    margin-top: 40px;
+    border: 4px solid #222;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center; 
+    line-height: 5px; 
+    color: #222;
+    margin-right:10px;
+    background-color: grey;
     
-    .card{
-        width: 90%;
-        max-width: 550px;
-        height: 650px;
-        background: linear-gradient(135deg, #88a78e, #FFFF);
-        color: #fff;
-        margin: 100px auto 0;
-        border-radius: 20px;
-        padding: 40px 35px;
-        text-align: center;
-    }
+  }
+  
+
+  .study-interval-card:hover {
+    background-color: #e36414; 
+    color: white; 
+    background-image: urL(images/leafgif.gif);
+    background-size: 10%;
+
+  }
+
+  .timer-container{
+    margin-top: 80px;
+    font-size: 100px;
+  }
+  
+ .button{
+margin-bottom: 10px;
+margin-right: 10px;
+background-color: transparent;
+border: none;
+cursor: pointer;
+
+
+ }
+
+.button-card{
+margin:0;
+background-color: transparent;
+border: none;
+cursor: pointer;
+font-size: 20px;
+position: absolute;
+display: block;
+text-align: center;
+}
+
+ .button:hover{
+    color: white;
+ }
+
+ .button-card-focus{
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
     
+    }
+
+
+ 
+  
+
+ 
