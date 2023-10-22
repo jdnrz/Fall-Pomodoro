@@ -44,7 +44,9 @@
 
 ## Author
 
-- Franoll Fantu
+- Franoll Fantu (Fullstack)
+- Eshan Mohammad (Design Coordinator)
+- 
 
 ## Credits
 
