@@ -29,6 +29,10 @@
 
 3. Customize the Pomodoro timer intervals by modifying the JavaScript code to suit your preferences.
 
+<button class="button-card-focus" onclick="changeTimer(25)">Focus</button>
+<button class="button-card-short-break" onclick="changeTimer(5)">Short Break</button>
+<button class="button-card" onclick="changeTimer(15)">Long Break</button>
+
 4. Feel free to replace the background images and sounds with your own to create a personalized experience.
 
 ## Usage
@@ -37,7 +41,7 @@
 
 - The timer will count down, and you can see the remaining time displayed in the center.
 
-- You can pause or reset the timer using the control buttons.
+- You can play, pause, and reset the timer using the control buttons.
 
 - When the timer reaches zero, a sound will play to alert you.
 
