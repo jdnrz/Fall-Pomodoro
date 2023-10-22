@@ -1,7 +1,9 @@
-# Fall Pomodoro - A Pomodoro Timer
+# Fall Pomodoro - A Pomodoro Timer 
+** try it out here! https://franollf.github.io/Fall-Pomodoro/
 
 ## Overview
 **Fall Pomodoro** is a simple yet powerful Pomodoro timer web application developed for **FallHacks 2023**. It's designed to help users manage their time more effectively, especially during work and study sessions. The project covers a range of programming topics including **HTML**, **CSS**, and **JavaScript**.
+
 
 ## Project Description
 Inspired by the turning leaves of autumn, this study companion helps you shed old habits and adopt a fresh approach to productivity. Dive into focused study sessions amidst the cozy fall atmosphere, guided by the Pomodoro technique. This is how it fits into the FallHacks2023 theme "Turning a New Leaf".
