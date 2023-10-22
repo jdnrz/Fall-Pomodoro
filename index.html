@@ -14,6 +14,7 @@
     />
 
     <!-- Main -->
+    <audio id="timerSound" src="ring.mp3" preload="auto"></audio>
     <title>Leaf Pomodoro</title>
   </head>
   <body>
@@ -27,7 +28,7 @@
       </div>
       <div class="study-interval-card">
         <h3>
-          <button class="button-card" onclick="changeTimer(5)">
+          <button class="button-card-short-break" onclick="changeTimer(5)">
             Short Break
           </button>
         </h3>
@@ -42,17 +43,18 @@
       </div>
 
       <div class="timer-container">
-        <span id="minutes">25</span>:<span id="seconds">00</span>
+        <span id="minutes"></span>:<span id="seconds"></span>
       </div>
-      <button class="button" id="startButton" onclick="startTimer()">
-        <img src="images/playimage.png" alt="Play-Button" width="20px" />
-      </button>
-      <button class="button" id="pauseButton" onclick="pauseTimer()">
-        <img src="images/stopbutton.png" alt="" width="20px" />
-      </button>
-      <button class="button" id="resetButton" onclick="endTimer()">
-        <img src="images/reset.png" alt="Stop-Button" width="20px" />
-      </button>
+        <button class="button" id="startButton" onclick="startTimer()">
+          <img src="images/playimage.png" alt="Play-Button" width="40px" />
+        </button>
+        <button class="button" id="pauseButton" onclick="pauseTimer()">
+          <img src="images/stopbutton.png" alt="" width="40px" />
+        </button>
+        <button class="button" id="resetButton" onclick="resetTimer()">
+          <img src="images/reset.png" alt="Stop-Button" width="40px" />
+        </button>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

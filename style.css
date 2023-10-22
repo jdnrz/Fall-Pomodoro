@@ -7,6 +7,8 @@
     
 body{
     background: #FF853F;
+    background-image: url("images/leavesfalling.gif");
+    background-size: cover;
 }
 
 .card{
@@ -32,18 +34,17 @@ body{
 
 .study-interval-card {
     display: inline-block;
-    width: 150px; 
+    width: 180px; 
     height: 30px; 
     padding: 20px;
     margin-top: 40px;
     border: 4px solid #222;
     border-radius: 10px;
-    cursor: pointer;
     transition: background-color 0.3s;
     text-align: center; 
     line-height: 5px; 
     color: #222;
-    margin-right:10px;
+    margin-right:11px;
     background-color: grey;
     
   }
@@ -53,7 +54,7 @@ body{
     background-color: #e36414; 
     color: white; 
     background-image: urL(images/leafgif.gif);
-    background-size: 10%;
+    background-size: 50%;
 
   }
 
@@ -63,8 +64,7 @@ body{
   }
   
  .button{
-margin-bottom: 10px;
-margin-right: 10px;
+
 background-color: transparent;
 border: none;
 cursor: pointer;
@@ -81,6 +81,9 @@ font-size: 20px;
 position: absolute;
 display: block;
 text-align: center;
+top: 23.4%;
+left: 56.7%;
+width: 175px;
 }
 
  .button:hover{
@@ -90,14 +93,37 @@ text-align: center;
  .button-card-focus{
     margin-bottom: 10px;
     background-color: transparent;
+    width: 175px;
     border: none;
     cursor: pointer;
     font-size: 20px;
     position: absolute;
-    
+   display: block;
+    top: 23.4%;
+    left: 31%
     }
 
+    .button-card-short-break{
+    margin-bottom: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    display: block;
+    width: 175px;
+    border: none;
+    top: 23.4%;
+    left: 44.0%
+    }
 
+    .timer-container.playing {
+      background-image: url(images/transparent-gif.gif);
+      background-size: cover;
+    }
+
+.hidden {
+  display: none;
+}
  
   
 
