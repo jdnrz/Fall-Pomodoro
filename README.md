@@ -28,7 +28,7 @@
 2. Open the HTML file (`index.html`) in your web browser to start using Fall Pomodoro.
 
 3. Customize the Pomodoro timer intervals by modifying the JavaScript code to suit your preferences.
-```
+```java
 <button class="button-card-focus" onclick="changeTimer(25)">Focus</button>
 <button class="button-card-short-break" onclick="changeTimer(5)">Short Break</button>
 <button class="button-card" onclick="changeTimer(15)">Long Break</button>
@@ -51,7 +51,7 @@
 
 - Franoll Fantu (Fullstack)
 - Eshan Mohammad (Design Coordinator)
-- 
+  
 
 ## Credits
 
