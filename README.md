@@ -59,7 +59,7 @@ Inspired by the turning leaves of autumn, this study companion helps you shed ol
 
 - Franoll Fantu (Fullstack)
 - Eshan Mohammad (Design Coordinator)
-  
+- Jayden Rodriguez (Design Coordinator 2)
 
 ## Credits
 
